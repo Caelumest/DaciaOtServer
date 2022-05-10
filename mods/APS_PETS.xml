@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="APS - Monsters" version="1.0" author="josejunior23" contact="x1zy@hotmail.com" enabled="yes">
+	<!-- Aracnids -->
+	<monster name="[PET] Poison Spider" file="Pets/Aracnids/poison spider.xml"/>
+	<monster name="[PET] Spider" file="Pets/Aracnids/spider.xml"/>
+	<monster name="[PET] Tarantula" file="Pets/Aracnids/tarantula.xml"/>
+
+	<!-- Blobs -->
+	<monster name="[PET] Acid Blob" file="Pets/Blobs/acid blob.xml"/>
+	<monster name="[PET] Death Blob" file="Pets/Blobs/death blob.xml"/>
+	<monster name="[PET] Mercury Blob" file="Pets/Blobs/mercury blob.xml"/>
+
+	<!-- Bosses -->
+	<monster name="[PET] Necropharus" file="Pets/Bosses/necropharus.xml"/>
+	
+	<!-- Chakoyas -->
+	<monster name="[PET] Chakoya Toolshaper" file="Pets/Chakoyas/chakoya toolshaper.xml"/>
+	<monster name="[PET] Chakoya Tribewarden" file="Pets/Chakoyas/chakoya tribewarden.xml"/>
+	<monster name="[PET] Chakoya Windcaller" file="Pets/Chakoyas/chakoya windcaller.xml"/>
+
+	<!-- Dragons -->
+	<monster name="[PET] Dragon Lord" file="Pets/Dragons/dragon lord.xml"/>
+	<monster name="[PET] Dragon" file="Pets/Dragons/dragon.xml"/>
+	<monster name="[PET] Dragon Hatchling" file="Pets/Dragons/dragon hatchling.xml"/>
+
+	<!-- Dwarves -->
+	<monster name="[PET] Dwarf Geomancer" file="Pets/Dwarves/dwarf geomancer.xml"/>
+	<monster name="[PET] Dwarf Guard" file="Pets/Dwarves/dwarf guard.xml"/>
+	<monster name="[PET] Dwarf Soldier" file="Pets/Dwarves/dwarf soldier.xml"/>
+	<monster name="[PET] Dwarf" file="Pets/Dwarves/dwarf.xml"/>
+
+	<!-- Dworcs -->
+	<monster name="[PET] Dworc Fleshhunter" file="Pets/Dworcs/dworc fleshhunter.xml"/>
+	<monster name="[PET] Dworc Venomsniper" file="Pets/Dworcs/dworc venomsniper.xml"/>
+	<monster name="[PET] Dworc Voodoomaster" file="Pets/Dworcs/dworc voodoomaster.xml"/>
+	
+	<!-- Elves -->
+	<monster name="[PET] Elf Arcanist" file="Pets/Elves/elf arcanist.xml"/>
+	<monster name="[PET] Elf Scout" file="Pets/Elves/elf scout.xml"/>
+	<monster name="[PET] Elf" file="Pets/Elves/elf.xml"/>
+
+	<!-- Giants -->
+	<monster name="[PET] Cyclops" file="Pets/Giants/cyclops.xml"/>
+	<monster name="[PET] Cyclops Drone" file="Pets/Giants/cyclops drone.xml"/>
+	<monster name="[PET] Cyclops Smith" file="Pets/Giants/cyclops smith.xml"/>
+
+	<!-- Minotaurs -->
+	<monster name="[PET] Minotaur Archer" file="Pets/Minotaurs/minotaur archer.xml"/>
+	<monster name="[PET] Minotaur Guard" file="Pets/Minotaurs/minotaur guard.xml"/>
+	<monster name="[PET] Minotaur Mage" file="Pets/Minotaurs/minotaur mage.xml"/>
+	<monster name="[PET] Minotaur" file="Pets/Minotaurs/minotaur.xml"/>
+
+	<!-- Necromancers -->
+	<monster name="[PET] Necromancer" file="Pets/Necromancers/necromancer.xml"/>
+	<monster name="[PET] Priestess" file="Pets/Necromancers/priestess.xml"/>
+
+	<!-- Orcs -->
+	<monster name="[PET] Orc Berserker" file="Pets/Orcs/orc berserker.xml"/>
+	<monster name="[PET] Orc Leader" file="Pets/Orcs/orc leader.xml"/>
+	<monster name="[PET] Orc Spearman" file="Pets/Orcs/orc spearman.xml"/>
+	<monster name="[PET] Orc Warlord" file="Pets/Orcs/orc warlord.xml"/>
+	<monster name="[PET] Orc Warrior" file="Pets/Orcs/orc warrior.xml"/>
+	<monster name="[PET] Orc" file="Pets/Orcs/orc.xml"/>
+
+	<!-- Skeletons -->
+	<monster name="[PET] Demon Skeleton" file="Pets/Skeletons/demon skeleton.xml"/>
+	<monster name="[PET] Skeleton" file="Pets/Skeletons/skeleton.xml"/>
+	<monster name="[PET] Undead Gladiator" file="Pets/Skeletons/undead gladiator.xml"/>
+</mod>

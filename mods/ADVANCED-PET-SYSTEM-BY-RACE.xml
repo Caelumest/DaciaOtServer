@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="ADVANCED PET SYSTEM BY RACES" version="2.8" author="josejunior23" contact="x1zy@hotmail.com" enabled="yes">
+	<talkaction words="/pet;/pet-attack;/pet-status;/pet-food;/pet-say;/pet-help;/pet-carry;/pet-info;/pet-revive;/pet-love;/pet-party;.status" case-sensitive="yes" event="script" value="aps_pets.lua"/>
+	<talkaction words="/pet-war-challenge;/pet-war-accept;/pet-war-leave;/pet-war-cancel;/pet-war-commands;/pet-war-stats" case-sensitive="yes" event="script" value="pet_war.lua"/>
+	<talkaction words="a1;a2;a3;a4;a5;a6;a7;a8;a9;a10;/sk;/shortkeys" case-sensitive="yes" event="script" value="pet_shortkeys.lua"/>
+	<event type="logout" name="pet_logout" event="script" value="pet_logout.lua"/>
+	<event type="look" name="pet_look" event="script" value="pet_look.lua"/>
+	<event type="kill" name="pet_kill" event="script" value="pet_kill.lua"/>
+	<event type="login" name="pet_login" event="script" value="pet_login.lua"/>
+	<event type="target" name="pet_target" event="script" value="pet_target.lua"/>	
+	<event type="cast" name="pet_cast" event="script" value="pet_cast.lua"/>		
+	<event type="think" name="pet_check" event="script" value="pet_check.lua"/>		
+	<event type="direction" name="pet_direction" event="script" value="pet_direction.lua"/>
+	<event type="areacombat" name="pet_areacombat" event="script" value="pet_areacombat.lua"/>
+	<event type="statschange" name="aps_statschange" event="script" value="aps_statschange.lua"/>	
+	<movevent type="StepIn" itemid="1387" event="script" value="pet_teleport.lua"/>
+	<movevent type="AddItem" itemid="2362-2363" event="script" value="pet_feed.lua"/>
+	<movevent type="AddItem" itemid="2666-2691" event="script" value="pet_feed.lua"/>	
+	<movevent type="AddItem" itemid="2695-2696" event="script" value="pet_feed.lua"/>
+	<movevent type="AddItem" itemid="2787-2796" event="script" value="pet_feed.lua"/>
+	<movevent type="AddItem" itemid="7588-7591" event="script" value="pet_feed.lua"/>
+	<movevent type="AddItem" itemid="8472-8473" event="script" value="pet_feed.lua"/>	
+	<movevent type="AddItem" itemid="7618-7620" event="script" value="pet_feed.lua"/>
+	<!-- <action itemid="2178" allowfaruse="yes" event="script" value="pet_tools.lua"/> -->
+</mod>

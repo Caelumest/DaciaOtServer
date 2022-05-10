@@ -1,0 +1,26 @@
+<raid>
+<announce delay="0" type="event" message="Many Giant Spiders are avisted in the west of the city!" />
+<singlespawn delay="1000" name="Giant Spider" x="893" y="1000" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="888" y="1006" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="868" y="996" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="874" y="1002" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="893" y="995" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="889" y="1016" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="875" y="1015" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="848" y="1005" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="847" y="1014" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="860" y="982" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="851" y="981" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="846" y="993" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="842" y="1017" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="821" y="1009" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="823" y="1020" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="819" y="1026" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="807" y="1005" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="824" y="986" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="826" y="992" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="855" y="971" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="817" y="959" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="824" y="956" z="7" />
+<singlespawn delay="1000" name="Giant Spider" x="833" y="939" z="7" />
+</raid>

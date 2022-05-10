@@ -1,0 +1,26 @@
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################
+# Installing:															#
+#	copy and paste all files from PET SYSTEM into your server				#
+#	add the npc Pet Trainer to your map									#
+#	now just login and buy your pet on pet trainer!						#
+#########################################################################
+# Requests done:														#
+#	/pet-revive															#
+#	Able to sell pets to Pet Trainer									#
+#	Pet Teleport(teleport pet to player)								#
+#	PeT-WaR (pet duel 1 pet vs 1 pet)									#
+#########################################################################
+# Others: 																#
+#	if you find a bug, please post it! 									#
+#	ps: /pet-attack [20% to FedeVI] 									#
+#	ps2: COMMENT IF YOU USE/LIKE/LOVE, justcomment.  					#
+#	Big Thanks to TFS, for everysingle function. 						#
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################

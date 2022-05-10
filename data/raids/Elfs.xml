@@ -1,0 +1,33 @@
+<raid>
+<announce delay="0" type="event" message="Elfs has been sighted near the east of the city!" />
+<announce delay="150000" type="event" message="Prince Almirith has sent an hord of elves from the Elf Fortress." />
+<announce delay="300000" type="event" message="Darion is under attack!" />
+<singlespawn delay="300000" name="Elf" x="1060" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1061" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1062" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1063" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1064" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1065" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1066" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf" x="1060" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1061" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1062" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1063" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1064" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1065" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf" x="1066" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1067" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1068" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1069" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1070" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1067" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1068" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1069" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1070" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1071" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1072" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1073" y="1029" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1071" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1072" y="1030" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1073" y="1030" z="7" />
+</raid>

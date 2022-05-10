@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Phoenix magic shield" version="1.0" author="William Christopher" contact="" enabled="yes">
+    <description>
+        Phoenix shield script .-.
+    </description>
+
+    <config name="config"><![CDATA[
+        local storage_value = 2539
+        local item_id = 2539
+        local hit_amount = 25
+    ]]></config>
+        <event type="login" name="phoenixLogin" event="script"><![CDATA[
+        function onLogin(cid)
+            registerCreatureEvent(cid,"phoenixShield")
+            return true
+        end
+        ]]></event>
+
+    <event type="statschange" name="phoenixShield" event="script"><![CDATA[
+        domodlib("config")
+        function onStatsChange(cid, attacker, type, combat, value)
+            if type == STATSCHANGE_HEALTHGAIN then
+                if getPlayerSlotItem(cid, CONST_SLOT_RIGHT).itemid == item_id or getPlayerSlotItem(cid, CONST_SLOT_LEFT).itemid == item_id then
+                    if getPlayerStorageValue(cid, storage_value) >= 1 then
+                        doCreatureAddHealth(attacker, - value)
+                        doPlayerSetStorageValue(cid, storage_value, getPlayerStorageValue(cid, storage_value)-1)
+                        doSendMagicEffect(getThingPos(attacker), CONST_ME_DRAWBLOOD)
+                        doSendAnimatedText(getThingPos(attacker), value, TEXTCOLOR_RED)
+                        doSendDistanceShoot(getThingPos(cid), getThingPos(attacker), CONST_ANI_ENERGY)
+                        return false
+                    end
+                else
+                    return true
+                end
+            end
+            return true
+        end
+    ]]></event>
+    <instant name="Phoenix Fury" words="Utevo gran mas flam" lvl="50" mana="300" exhaustion="60000" needlearn="0" event="script">
+        <vocation id="1"/>
+        <vocation id="2"/>
+        <vocation id="3"/>
+        <vocation id="4"/>
+        <vocation id="5"/>
+        <vocation id="6"/>
+        <vocation id="7"/>
+        <vocation id="8"/><![CDATA[
+        function onCastSpell(cid, var)
+            if getPlayerSlotItem(cid, CONST_SLOT_RIGHT).itemid == item_id or getPlayerSlotItem(cid, CONST_SLOT_LEFT).itemid == item_id then
+                if getPlayerSlotItem(cid, CONST_SLOT_RIGHT).itemid == item_id then 
+                    doTransformItem(getPlayerSlotItem(cid, CONST_SLOT_RIGHT).uid, getPlayerSlotItem(cid, CONST_SLOT_RIGHT).itemid, 25)
+                else
+                    doTransformItem(getPlayerSlotItem(cid, CONST_SLOT_LEFT).uid, getPlayerSlotItem(cid, CONST_SLOT_LEFT).itemid, 25)
+                end
+                for i = 1, 5 do
+                    addEvent(doSendMagicEffect, i*1000, getThingPos(cid), CONST_ME_MAGIC_BLUE)
+                end
+                doPlayerSetStorageValue(cid, storage_value, hit_amount)
+                addEvent(doSendMagicEffect, 5000, getThingPos(cid), 6)
+            else
+                doPlayerSendCancel(cid, "You can't enchant anything because you do not have the phoenix shield.")
+                doSendMagicEffect(getThingPos(cid), CONST_ME_POFF)
+                return false
+            end
+            return true
+        end
+    ]]></instant>
+
+</mod>

@@ -1,0 +1,7 @@
+<npc name="Capitao Jones" script="data/npc/scripts/vipboat3.lua" walkinterval="1" floorchange="0" access="5" level="1" maglevel="1">
+<health now="100" max="100"/>
+<look type="151" head="114" body="127" legs="127" feet="76" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Oh, Ola |PLAYERNAME|.Bem vindo a meu navio!" />
+</parameters>
+</npc>  

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mary" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="150" max="150"/>
+	<look type="140" head="58" body="101" legs="101" feet="114" corpse="2212"/>	
+    <parameters>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="small diamonds,2145,400;small sapphires,2146,300;small rubies,2147,300;small emeralds,2149,300;small amethysts,2150,300;small topazs,9970,500;golden mug,2033,200;golden amulet,2130,5000;ruby necklace,2133,8000;golden ingot,9971,7000;"/>
+        <parameter key="shop_buyable" value=""/>
+        <parameter key="message_greet" value="Hello |PLAYERNAME| i am looking for precious itens. You can help me? {trade}"/>
+        <parameter key="message_sendtrade" value="Go ahead and have a look at the list!"/>
+        <parameter key="message_oncloseshop" value="I hope you found what you wanted! Come back again!"/>
+    </parameters>
+</npc>

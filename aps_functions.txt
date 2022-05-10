@@ -1,0 +1,87 @@
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################
+#	functions Get:														#
+#		getPlayerPet(cid)												#
+#		getPetExp(cid)													#
+#		getPetMaxHp(cid)												#
+#		getPetMana(cid)													#
+#		getPetMaxMana(cid)												#
+#		getPetLvl(cid)													#
+#		getPetMl(cid)													#
+#		getPetManaSpend(cid)											#
+#		getPetRace(cid)													#
+#		getPetId(cid)													#
+#		getPetPos(cid)													#
+#		getPriceRevive(cid)												#
+#		getRaceNameById(raceId)											#
+#		getLvlStage(lvl)												#
+#		getExpForLvl(lvl)												#
+#		getReqManaSpend(cid, magLevel)									#
+#		getItemNameFromSlot(cid, slot)									#
+#		getValueInArray(array, value)									#
+#		getRamdomThing(table)											#
+#		getPetLastHealth(cid) 											#
+#		getCreatureLastPosition(cid)									#
+#		getSpeedByLevel(level)											#
+#########################################################################
+#	Functions Add:														#
+#		addPetExp(cid, ammount)											#
+#		addPetMana(cid, ammount)										#
+#		addPetLvl(cid, ammount)											#
+#		addPetManaSpend(cid, ammount)									#
+#		addPetMl(cid, ammount)											#
+#		addNpcAutoSay(npcId, time, messages)							#
+#		addExhausted(cid, seconds)										#
+#########################################################################
+#	Functions Do:														#
+#		doPetRemoveMana(cid, ammount)									#
+#		doRemovePet(cid)												#
+#		doSummonPet(cid[, pos)											#
+#		doPlayerHavePet(cid)											#
+#		doResetPet(cid)													#
+#		doPetFeed(cid, foodId)											#
+#########################################################################
+#	Functions Is:														#
+#		isPetOnline(cid)												#
+#		isPetDead(cid)													#
+#		isExhausted(cid)												#
+#		isFood(itemid)													#
+#		isPotion(itemid)												#
+#		isSummon(uid)													#	
+#########################################################################
+#	Functions Set:														#
+#		setPetId(cid, petId)											#
+#		setPetStats(cid, stats)											#
+#		setSkull(cid, type)												#
+#		setPetLastHealth(cid, health)									#
+#########################################################################
+#	Functions Others:													#
+#		createPet(cid, raceId, hp, mana)								#
+#		s(s)															#
+#		petFormula(ml, lvl, maxb, maxa, minb, mina)						#
+#		fixTimer(v)														#
+#		returnMessage(cid, message)										#
+#		sendWindowsMessage(cid, message)								#
+#########################################################################
+#	Functions PeT-WaR:													#
+#		isPetInWar(cid)													#
+#		isInvitedToWar(cid, enemy)										#
+#		doInviteToWar(cid, enemy)										#
+#		doStartWar(cid, enemy)											#
+#		getPetEnemy(cid)												#
+#		leaveWar(cid)													#
+#		stopWar(cid, enemy)												#
+#		resetWar(cid)													#
+#########################################################################
+#	Functions PeT-Party:												#
+#		isInPetParty(cid)												#
+#		doStartPetParty(cid)											#
+#		doLeavePetParty(cid)											#
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################

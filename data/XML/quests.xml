@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<quests>
+		<quest name="Flash Of Light" startstorageid="7939" startstoragevalue="1">
+		<mission name="Flash of Light" storageid="7939" startvalue="1" endvalue="1">
+		<missionstate id="1" description="Voce subiu ate o topo do farol e resgatou seu premio, um mining helmet!"/>
+		</mission>	
+	</quest>
+		<quest name="Rotworm Invasion" startstorageid="2486" startstoragevalue="1">
+		<mission name="Rotworm invasion" storageid="2486" startvalue="1" endvalue="1">
+		<missionstate id="1" description="Voce mostrou ser um bravo guerreiro matando todas as pestes dos boeiros de darion e ganhou um noble armor e um crystal of power!"/>
+		</mission>
+	</quest>
+		<quest name="The Lost King" startstorageid="2519" startstoragevalue="1">
+		<mission name="The lost king" storageid="2519" startvalue="1" endvalue="1">
+		<missionstate id="1" description="Voce encontrou o esconderijo do rei e da rainha de venossa, mas eles estavam mortos, voce pegou um crown shield,crown legs e dois crystals of power do rei morto."/>
+		</mission>
+	</quest>
+</quests>

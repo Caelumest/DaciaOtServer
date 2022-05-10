@@ -1,0 +1,8 @@
+<raids>
+<!-- Raids: -->
+<raid name="Elfs" file="Elfs.xml" chance="10" interval2="240" margin="0" /> Each 240 minutes there is a 10% chance that the raid is executed... />
+<raid name="Ferumbras" file="Ferumbras.xml" chance="2" interval2="240" margin="0" /> Each 240 minutes there is a 2% chance that the raid is executed... />
+<raid name="Morgaroth" file="Morgaroth.xml" chance="1" interval2="300" margin="0" /> Each 300 minutes there is a 2% chance that the raid is executed... />
+<raid name="GSraid" file="GSraid.xml" chance="6" interval2="80" margin="0" /> Each 80 minutes there is a 6% chance that the raid is executed... />
+<raid name="ghazbaran" file="ghazbaran.xml" chance="1" interval2="130" margin="0" /> Each 130 minutes there is a 5% chance that the raid is executed... />
+</raids>

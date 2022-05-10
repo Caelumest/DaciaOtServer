@@ -1,0 +1,7 @@
+<npc name="Ana Lancaster" script="data/npc/scripts/death.lua" walkinterval="1" floorchange="0" access="5" level="1" maglevel="1">
+<health now="100" max="100"/>
+<look type="311" head="57" body="59" legs="40" feet="76" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Oh, Oi |PLAYERNAME|.Eu fui aprisionada neste corpo por um feiticeiro e fiquei no estado de morte durante 1 mes, desde entao vivo aqui.Sera que voce poderia me ajudar?" />
+</parameters>
+</npc>  

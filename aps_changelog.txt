@@ -1,0 +1,50 @@
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################
+# 0.1 - started - /pet [go and back]									#
+#	0.2 - added - /pet-attack - Pets attack by spell, full configurable.#
+#	0.3 - added - /pet-status - show lvl,ml,hp,mana,xp and mana spend..	#
+#	0.4 - added - /pet-food - pets can eat now!.						#
+#	0.5 - added - /pet-say - pets can say now!.							#
+#	0.6 - added - /pet-help, /pet-help spells and /pet-help commands.	#
+#	0.8 - added - /pet-carry - pets can carry 1 to X items.				#
+#	0.9 - modified - /pet-carry slots - to see items in slots.			#
+# 1.0 - modified - /pet-status, pet info also can use param as player.	#
+#	1.1 - added - if target = player, pet get a X skull for X time		#
+#	1.2 - added - mana system, pets need to eat to recovery hp\mana		#
+#	1.3 - added - NPC to buy , revive and learn pet spells!				#
+#	1.4 - added - /pet-info - show info about XP rate, ML rate and more.#
+#	1.5 - added - Pet Look - look to a pet, show name/lvl/owner name.	#
+#	1.6 - added - Pet Kill and Pet Combat to creaturevents.				#
+#	1.7 - added - /pet-revive [you can disable if you want] [requested]	#
+#	1.8 - modified - Feed system, feed pet by dropping food on him.		#
+#	1.9 - added - PetTeleport, if pet not on screen tp pet [requested]	#
+# 2.0 - modified - Pet Trainer, sell pet to Pet Trainer![requested]		#
+#	2.1 - modified - changed onCombat to onCast and onTarget, mybad;x	#
+#	2.2 - added - PeT-WaR! 1 pet vs 1 pet [requested]					#
+#	2.3 - fixed - /pet-food, /pet-help spells[requested]				#
+#	2.4 - modified - re-scripted pet teleport, now it wont lag!			#
+#	2.5 - fixed - PeT-WaR, re-scripted onTarget/onCast/onKill			#
+#	2.6 - added - Potions, pets can drink potions[requested]			#
+#	2.7 - modified - re-scripted: /pet-attack, /pet-food, pet_check.lua # 
+#		- added - more 5 pets, added - more 7 spells					#
+#		- fixes - many fixes in pet_war.lua, 							#
+#		- added - /pet-help experience (show xp table lv2 to lv100) 	#
+#		- added - /pet-war-commands, show all pet war commands.			#
+#		- modified - aps_lib, now you can config at aps_config.lua		#
+#		- added - /pet-love (just a fun command)						#
+#	2.8 - Added Cut/Rock Smash/Dig										#
+#		- added Shortkeys(ex /pet-attack fire) a1,a2,a3...				#
+#		- fixed many, I mean many bugs!									#
+#		- /pet-party - you can hit your pet(like training)				#
+#		- Pets wont hit you anymore!									#
+#		- pet will not gain exp from summons anymore					#
+#		- and others things i forgot(lol)!								#
+#		- added Mission to NPC Pet Trainer!								#
+#########################################################################
+#				## ADVANCED PET-SYSTEM BY RACES ## 						#
+#					scripted by josejunior23							#
+#				   otland.net - otserv.com.br 							#
+#########################################################################

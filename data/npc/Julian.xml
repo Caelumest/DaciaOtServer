@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Julian" script="data/npc/scripts/julian.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+	<look type="134" head="49" body="54" legs="104" feet="17" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome, |PLAYERNAME|! I need your help for one {mission}."/>
+		<parameter key="message_farewell" value="Bye!"/>
+	</parameters>
+</npc>
